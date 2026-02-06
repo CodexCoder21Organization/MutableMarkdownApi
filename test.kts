@@ -1,9 +1,11 @@
 @file:WithArtifact("community.kotlin.markdown:api:0.0.1")
 @file:WithArtifact("org.jetbrains.kotlin:kotlin-stdlib:1.9.22")
 @file:WithArtifact("org.jetbrains.kotlin:kotlin-test:1.9.22")
-package mutablemarkdownapi
+package community.kotlin.markdown.api.tests
 
 import build.kotlin.withartifact.WithArtifact
+import community.kotlin.markdown.api.MarkdownService
+import community.kotlin.markdown.api.MarkdownFile
 import kotlin.test.assertNotNull
 
 /**
